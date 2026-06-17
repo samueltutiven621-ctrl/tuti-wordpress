@@ -1,0 +1,188 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wc-booster/product-companion",
+  "version": "1.3",
+  "title": "Product Companion",
+  "category": "wc-booster",
+  "description": "Provides key product interactions like Quick View, Wishlist and add to cart button, enhancing the shopping experience with streamlined access to essential features.",
+  "attributes": {
+    "block_id": {
+      "type": "string"
+    },
+    "enableQuickView": {
+      "type": "boolean",
+      "default": true
+    },
+    "enableWishList": {
+      "type": "boolean",
+      "default": true
+    },
+    "enableCart": {
+      "type": "string",
+      "default": "enable"
+    },
+    "bgColor": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "color": {
+      "type": "string",
+      "default": "#000"
+    },
+    "tooglePostion": {
+      "type": "string",
+      "default": "left"
+    },
+    "layout": {
+      "type": "string",
+      "default": "column"
+    },
+    "enableTextOnHover": {
+      "type": "string",
+      "default": "visible"
+    },
+    "textPosition": {
+      "type": "string",
+      "default": "right"
+    },
+    "position": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "units": [
+          "%",
+          "px",
+          "em"
+        ],
+        "range": {
+          "min": 0,
+          "max": 500
+        },
+        "values": {
+          "desktop": 10,
+          "tablet": 10,
+          "mobile": 10
+        }
+      }
+    },
+    "positionTop": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "units": [
+          "%",
+          "px",
+          "em"
+        ],
+        "range": {
+          "min": -100,
+          "max": 500
+        },
+        "values": {
+          "desktop": 40,
+          "tablet": 40,
+          "mobile": 40
+        }
+      }
+    },
+    "borderRadius": {
+      "type": "number",
+      "default": 0
+    },
+    "layoutColumnPadding": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "isLinkActive": true,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px",
+          "rem"
+        ],
+        "values": {
+          "desktop": [
+            9,
+            10,
+            9,
+            10
+          ],
+          "tablet": [
+            9,
+            10,
+            9,
+            10
+          ],
+          "mobile": [
+            9,
+            10,
+            9,
+            10
+          ]
+        }
+      }
+    },
+    "layoutRowPadding": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "isLinkActive": true,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px",
+          "rem"
+        ],
+        "values": {
+          "desktop": [
+            8,
+            13,
+            5,
+            13
+          ],
+          "tablet": [
+            8,
+            13,
+            5,
+            13
+          ],
+          "mobile": [
+            8,
+            13,
+            5,
+            13
+          ]
+        }
+      }
+    }
+  },
+  "usesContext": [
+    "postId"
+  ],
+  "ancestor": [
+    "woocommerce/product-template"
+  ],
+  "textdomain": "wc-booster",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

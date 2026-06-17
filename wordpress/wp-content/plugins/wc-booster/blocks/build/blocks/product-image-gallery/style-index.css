@@ -1,0 +1,202 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/blocks/product-image-gallery/styles/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************/
+.wp-block-wc-booster-product-image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.wp-block-wc-booster-product-image-gallery .wc-booster-thumbnail {
+  max-width: 100px;
+  width: 100%;
+  overflow-y: scroll;
+  max-height: 520px;
+  /* Hide scrollbar for all browsers */
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+.wp-block-wc-booster-product-image-gallery .wc-booster-thumbnail::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
+.wp-block-wc-booster-product-image-gallery .wc-booster-thumbnail .slick-current .wc-booster-image-gallery-wrapper {
+  border-bottom: 3px solid #101E71;
+}
+.wp-block-wc-booster-product-image-gallery .wc-booster-thumbnail .wc-booster-image-gallery-wrapper {
+  border-bottom: 3px solid transparent;
+}
+.wp-block-wc-booster-product-image-gallery .wc-booster-thumbnail .slick-track img {
+  padding: 20px 8px;
+}
+.wp-block-wc-booster-product-image-gallery .wc-booster-thumbnail .slick-slide:active {
+  outline: none;
+}
+.wp-block-wc-booster-product-image-gallery .wc-booster-thumbnail .slick-slide:focus {
+  outline: none;
+}
+.wp-block-wc-booster-product-image-gallery .slick-slide {
+  position: relative;
+  list-style: 1;
+}
+.wp-block-wc-booster-product-image-gallery .slick-slide p {
+  position: absolute;
+  top: 10px;
+  background: #F2F2F2;
+  height: 25px;
+  width: 25px;
+  right: 15px;
+  text-align: center;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 10px;
+  margin: 0;
+}
+.wp-block-wc-booster-product-image-gallery .slick-slide img {
+  max-width: 100%;
+}
+.wp-block-wc-booster-product-image-gallery .wc-booster-main-image {
+  max-width: calc(100% - 120px);
+}
+.wp-block-wc-booster-product-image-gallery .wc-booster-main-image button {
+  position: absolute;
+  background: transparent;
+  border: none;
+  top: 50%;
+  transform: translate(0, -50%);
+  font-size: 21px;
+  width: 25px;
+  text-align: left;
+  z-index: 99;
+  cursor: pointer;
+  width: unset;
+}
+.wp-block-wc-booster-product-image-gallery .wc-booster-main-image button.slick-next {
+  right: 15px;
+}
+.wp-block-wc-booster-product-image-gallery .wc-booster-main-image button.slick-prev {
+  left: 15px;
+}
+.wp-block-wc-booster-product-image-gallery .wc-booster-main-image button .fa {
+  font-size: 30px;
+}
+@media only screen and (max-width: 767px) {
+  .wp-block-wc-booster-product-image-gallery .wc-booster-thumbnail {
+    display: none !important;
+  }
+  .wp-block-wc-booster-product-image-gallery .wc-booster-main-image {
+    max-width: 100%;
+    position: relative;
+  }
+  .wp-block-wc-booster-product-image-gallery .wc-booster-main-image .wc-booster-image-gallery-wrapper {
+    height: 300px !important;
+    margin-bottom: 25px;
+  }
+  .wp-block-wc-booster-product-image-gallery .wc-booster-main-image ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    position: absolute;
+    bottom: -6%;
+    left: 0;
+    right: 0;
+  }
+  .wp-block-wc-booster-product-image-gallery .wc-booster-main-image ul li {
+    position: relative;
+    list-style: none;
+    padding: 10px 6px;
+  }
+  .wp-block-wc-booster-product-image-gallery .wc-booster-main-image ul li:before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #bfbfbf;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .wp-block-wc-booster-product-image-gallery .wc-booster-main-image ul li.slick-active:before {
+    background-color: #000;
+  }
+  .wp-block-wc-booster-product-image-gallery .wc-booster-main-image ul li button {
+    display: none;
+  }
+}
+
+.product-gallery {
+  position: relative;
+}
+
+.wc-booster-main-image {
+  position: relative;
+  display: inline-block;
+}
+
+.wc-booster-save-badge {
+  position: absolute;
+  top: 0;
+  z-index: 99;
+  right: 0;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.wc-booster-image-gallery-wrapper {
+  background-color: #F2F2F2;
+}
+.wc-booster-image-gallery-wrapper img {
+  mix-blend-mode: darken;
+}
+
+.product-gallery.wp-block-wc-booster-product-image-gallery {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
+
+.wp-block-wc-booster-product-image-gallery .wc-booster-main-image img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: 40px 20px;
+}
+
+.wp-block-wc-booster-product-image-gallery .wc-booster-thumbnail .slick-slide img {
+  aspect-ratio: 1/1;
+  -o-object-fit: contain;
+  object-fit: contain;
+  padding: 0;
+}
+
+.wp-block-wc-booster-product-image-gallery .wc-booster-thumbnail .wc-booster-image-gallery-wrapper {
+  padding: 10px;
+}
+
+.wp-block-wc-booster-product-image-gallery .wc-booster-main-image .wc-booster-image-gallery-wrapper {
+  height: 520px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.mfp-arrow:before {
+  content: unset !important;
+}
+
+.mfp-arrow:after {
+  content: "\f104" !important;
+  border: unset !important;
+  font-weight: 700;
+  font-family: "Font Awesome 6 Free";
+  font-size: 40px;
+}
+
+.mfp-arrow.mfp-arrow-right:after {
+  transform: rotate(180deg) !important;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

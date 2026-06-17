@@ -1,0 +1,1 @@
+{"version":3,"file":"blocks/stock-progress-bar/index.css","mappings":";;;AAAA;;;;EAAA,C","sources":["webpack://wc-booster/./src/blocks/stock-progress-bar/styles/editor.scss"],"sourcesContent":["/*.stock-progress-bar-wrapper {\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: flex-start;\r\n}*/"],"names":[],"sourceRoot":""}

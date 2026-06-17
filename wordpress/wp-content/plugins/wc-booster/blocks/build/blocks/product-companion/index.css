@@ -1,0 +1,43 @@
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/blocks/product-companion/styles/editor.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+.wc-booster-product-companion {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute !important;
+  z-index: 999;
+}
+.wc-booster-product-companion .block-editor-block-list__layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  top: -3px;
+}
+.wc-booster-product-companion .block-editor-block-list__layout .wp-block-wc-booster-wish-list-button {
+  position: unset !important;
+}
+.wc-booster-product-companion .block-editor-block-list__layout .wp-block-wc-booster-wish-list-button .wc-booster-wishlist-button i {
+  font-size: 16px !important;
+}
+.wc-booster-product-companion .block-editor-block-list__layout .wp-block-wc-booster-quick-view {
+  position: unset !important;
+}
+.wc-booster-product-companion .product-companion-cart {
+  top: 5px !important;
+}
+.wc-booster-product-companion.row {
+  flex-direction: row;
+  gap: 14px;
+  align-items: flex-end;
+}
+
+.components-base-control__label {
+  text-transform: inherit !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+}
+
+/*# sourceMappingURL=index.css.map*/

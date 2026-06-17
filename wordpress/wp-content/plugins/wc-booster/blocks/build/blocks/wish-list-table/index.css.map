@@ -1,0 +1,1 @@
+{"version":3,"file":"blocks/wish-list-table/index.css","mappings":";;;AAAA;EACC;EACA;EACA;AACD,C","sources":["webpack://wc-booster/./src/blocks/wish-list-table/styles/editor.scss"],"sourcesContent":[".components-base-control__label {\r\n\ttext-transform: inherit !important;\r\n\tfont-size: 14px !important;\r\n\tfont-weight: 400 !important;\r\n}\r\n"],"names":[],"sourceRoot":""}

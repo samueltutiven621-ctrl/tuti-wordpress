@@ -1,0 +1,1 @@
+{"version":3,"file":"blocks/product-image-gallery/index.css","mappings":";;;AAAA;EACC;AACD,C","sources":["webpack://wc-booster/./src/blocks/product-image-gallery/styles/editor.scss"],"sourcesContent":[".wp-block-wc-booster-product-image-gallery .wc-booster-main-image img {\r\n\tpadding: unset;\r\n}"],"names":[],"sourceRoot":""}

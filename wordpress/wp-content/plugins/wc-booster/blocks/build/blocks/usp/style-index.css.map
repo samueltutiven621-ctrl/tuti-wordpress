@@ -1,0 +1,1 @@
+{"version":3,"file":"blocks/usp/style-index.css","mappings":";;;AAAA;EACC;AACD,C","sources":["webpack://wc-booster/./src/blocks/usp/styles/style.scss"],"sourcesContent":["ul.wc-booster-usps li:before {\r\n\tdisplay: none;\r\n}"],"names":[],"sourceRoot":""}

@@ -1,0 +1,262 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/blocks/product-companion/styles/style.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************/
+.wc-booster-product-companion.wc-booster-layout-column .wc-booster-wishlist-button-wrapper .wc-booster-wishlist-button {
+  padding: 0px !important;
+}
+
+.wc-booster-product-companion.wc-booster-layout-row {
+  gap: 15px;
+}
+.wc-booster-product-companion.wc-booster-layout-row .wc-booster-wishlist-button-wrapper .wc-booster-wishlist-button {
+  padding: 0px !important;
+}
+.wc-booster-product-companion.wc-booster-layout-row .wc-booster-wishlist-button-wrapper .wishlist-text {
+  top: 56px;
+  right: -50px;
+  left: 0;
+  min-width: 120px;
+  transform: translateY(10px);
+}
+.wc-booster-product-companion.wc-booster-layout-row .wc-booster-wishlist-button-wrapper .wishlist-text span:before {
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  top: -10px;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  transform: unset;
+}
+.wc-booster-product-companion.wc-booster-layout-row .wc-booster-wishlist-button-wrapper:hover .wishlist-text {
+  transform: translateY(-20px);
+}
+.wc-booster-product-companion.wc-booster-layout-row .wc-booster-quick-view .wc-booster-quick-view-button .quick-view-text {
+  top: 56px;
+  right: -36px;
+  left: 0;
+  min-width: 120px;
+  transform: translateY(10px);
+}
+.wc-booster-product-companion.wc-booster-layout-row .wc-booster-quick-view .wc-booster-quick-view-button .quick-view-text span:before {
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  top: -10px;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  transform: unset;
+}
+.wc-booster-product-companion.wc-booster-layout-row .wc-booster-quick-view .wc-booster-quick-view-button:hover .quick-view-text {
+  transform: translateY(-20px);
+}
+.wc-booster-product-companion.wc-booster-layout-row .product-companion-cart .cart-text {
+  top: 56px;
+  right: -35px;
+  left: 0;
+  min-width: 120px;
+  transform: translateY(10px);
+}
+.wc-booster-product-companion.wc-booster-layout-row .product-companion-cart .cart-text span:after {
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  top: -10px;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  transform: unset;
+}
+.wc-booster-product-companion.wc-booster-layout-row .product-companion-cart:hover .cart-text {
+  transform: translateY(-20px);
+}
+
+.wc-booster-product-companion {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  z-index: 9999;
+  gap: 5px;
+}
+.wc-booster-product-companion .wc-booster-wishlist-button-wrapper {
+  position: relative !important;
+  top: 0 !important;
+  right: 0 !important;
+}
+.wc-booster-product-companion .wc-booster-wishlist-button-wrapper .wc-booster-wishlist-button {
+  padding: 0px;
+}
+.wc-booster-product-companion .wc-booster-wishlist-button-wrapper .wishlist-text {
+  top: -4px;
+  left: -125px;
+}
+.wc-booster-product-companion .wc-booster-wishlist-button-wrapper i {
+  font-size: 15px;
+  padding: 0 !important;
+}
+.wc-booster-product-companion .wc-booster-quick-view {
+  position: relative !important;
+  top: 0 !important;
+  right: 0 !important;
+  padding: 0 !important;
+  gap: 0;
+}
+.wc-booster-product-companion .wc-booster-quick-view .quick-view-text {
+  top: -1px;
+  left: -105px;
+}
+.wc-booster-product-companion .wc-booster-quick-view i {
+  font-size: 16px;
+}
+.wc-booster-product-companion .wc-booster-quick-view .quick-view-text-left {
+  left: unset;
+  right: -90px;
+  top: -5px;
+  transform: translateX(20px);
+}
+.wc-booster-product-companion .wc-booster-quick-view .quick-view-text-left span:before {
+  right: unset;
+  left: -16px;
+  top: 50%;
+  clip-path: polygon(100% 50%, 0 100%, 0 0);
+  transform: translate(50%, -50%);
+}
+.wc-booster-product-companion .wc-booster-quick-view.loading:after {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin: 3px 0;
+}
+.wc-booster-product-companion .product-companion-cart {
+  position: relative !important;
+  top: 0 !important;
+  right: 0 !important;
+}
+.wc-booster-product-companion .product-companion-cart .cart-text {
+  position: absolute;
+  top: 0px;
+  left: -105px;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+  transform: translateX(-20px);
+}
+.wc-booster-product-companion .product-companion-cart .cart-text span {
+  padding: 5px 10px;
+  background-color: rgba(42, 42, 42, 0.4862745098);
+  color: #fff;
+  position: relative;
+  font-size: 14px;
+  cursor: pointer;
+}
+.wc-booster-product-companion .product-companion-cart .cart-text span:after {
+  content: "";
+  position: absolute;
+  right: -5px;
+  top: 50%;
+  width: 11px;
+  height: 11px;
+  background-color: rgba(42, 42, 42, 0.4862745098);
+  clip-path: polygon(0 50%, 100% 100%, 100% 0);
+  transform: translate(50%, -50%);
+}
+.wc-booster-product-companion .product-companion-cart .add_to_cart_button {
+  padding: unset !important;
+}
+.wc-booster-product-companion .product-companion-cart .add_to_cart_button i {
+  font-size: 15px;
+}
+.wc-booster-product-companion .product-companion-cart .add_to_cart_button.loading:after {
+  content: "";
+  display: block;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  border-top: 2px solid #704747;
+  width: 13px;
+  height: 13px;
+  animation: spin 2s linear infinite;
+  margin: 6px 0;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+.wc-booster-product-companion .product-companion-cart .add_to_cart_button.loading i {
+  display: none;
+}
+.wc-booster-product-companion .product-companion-cart .add_to_cart_button.added .fa-shopping-cart {
+  color: green !important;
+}
+.wc-booster-product-companion .product-companion-cart:hover .cart-text {
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(0);
+}
+.wc-booster-product-companion .product-companion-cart .added_to_cart {
+  display: none;
+}
+
+.wp-block-woocommerce-product-collection ul li.wc-block-product {
+  position: relative;
+}
+
+.wc-booster-product-companion-text-position-left .wc-booster-wishlist-button-wrapper .wishlist-text {
+  left: unset;
+  right: -126px;
+  top: -2px;
+  transform: translateX(20px);
+}
+.wc-booster-product-companion-text-position-left .wc-booster-wishlist-button-wrapper .wishlist-text span {
+  font-weight: 500;
+}
+.wc-booster-product-companion-text-position-left .wc-booster-wishlist-button-wrapper .wishlist-text span:before {
+  right: unset;
+  left: -16px;
+  top: 50%;
+  clip-path: polygon(100% 50%, 0 100%, 0 0);
+  transform: translate(50%, -50%);
+}
+.wc-booster-product-companion-text-position-left .wc-booster-quick-view .wc-booster-quick-view-button .quick-view-text {
+  left: unset;
+  right: -83px;
+  top: -2px;
+  transform: translateX(40px);
+}
+.wc-booster-product-companion-text-position-left .wc-booster-quick-view .wc-booster-quick-view-button .quick-view-text span:before {
+  right: unset;
+  left: -16px;
+  top: 50%;
+  clip-path: polygon(100% 50%, 0 100%, 0 0);
+  transform: translate(50%, -50%);
+}
+.wc-booster-product-companion-text-position-left .wc-booster-quick-view .wc-booster-quick-view-button:hover .quick-view-text {
+  transform: translateX(20px);
+}
+.wc-booster-product-companion-text-position-left .product-companion-cart .cart-text {
+  left: unset;
+  right: -83px;
+  top: -2px;
+  transform: translateX(40px);
+}
+.wc-booster-product-companion-text-position-left .product-companion-cart .cart-text span:after {
+  right: unset;
+  left: -16px;
+  top: 50%;
+  clip-path: polygon(100% 50%, 0 100%, 0 0);
+  transform: translate(50%, -50%);
+}
+.wc-booster-product-companion-text-position-left .product-companion-cart:hover .cart-text {
+  transform: translateX(20px);
+}
+
+/*.wp-block-woocommerce-product-collection
+	ul
+	li.wc-block-product:hover
+	.wc-booster-quick-view {
+	visibility: visible;
+	opacity: 1;
+}
+*/

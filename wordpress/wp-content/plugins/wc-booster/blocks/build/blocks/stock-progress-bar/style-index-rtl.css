@@ -1,0 +1,25 @@
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/blocks/stock-progress-bar/styles/style.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+.wc-booster-stock-progress-bar-wrapper .stock-progress-bar {
+  width: 100%;
+  overflow: hidden;
+}
+
+.wc-booster-stock-progress-bar .stock-progress-bar-fill {
+  height: 100%;
+  width: 0;
+  transition: width 0.3s ease-in-out;
+}
+
+.wc-booster-stock-progress-bar-wrapper.left {
+  text-align: right;
+}
+
+.wc-booster-stock-progress-bar-wrapper.right {
+  text-align: left;
+}
+
+.wc-booster-stock-progress-bar-wrapper.center {
+  text-align: center;
+}

@@ -1,0 +1,64 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wc-booster/product-image-gallery",
+  "version": "1.0",
+  "title": "Product Image Gallery",
+  "description": "The Product Image Gallery Block displays a customizable image slider for WooCommerce products. It supports product variations and offers a responsive, smooth browsing experience on all devices.",
+  "supports": {
+    "multiple": false
+  },
+  "attributes": {
+    "block_id": {
+      "type": "string"
+    },
+    "saleText": {
+      "type": "string",
+      "default": "Sale!"
+    },
+    "saleTextColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "saleBgColor": {
+      "type": "string",
+      "default": "#000"
+    },
+    "saleTypo": {
+      "type": "object",
+      "default": {
+        "fontFamily": "",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 16,
+            "tablet": 16,
+            "mobile": 16
+          }
+        },
+        "fontWeight": 400,
+        "lineHeight": {
+          "activeUnit": "",
+          "units": [
+            ""
+          ],
+          "values": {
+            "desktop": 1.2,
+            "tablet": 1.2,
+            "mobile": 1.2
+          }
+        }
+      }
+    }
+  },
+  "textdomain": "wc-booster",
+  "editorScript": "file:./index.js",
+  "viewScript": "file:./gallery-slider.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

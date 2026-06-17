@@ -1,0 +1,235 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wc-booster/tax-toggler",
+  "version": "1.0",
+  "title": "Tax Toggler",
+  "description": "The Product Tax Toggler block is a versatile addition to your WooCommerce store, enabling customers to toggle between viewing product prices with or without tax.",
+  "category": "wc-booster",
+  "attributes": {
+    "block_id": {
+      "type": "string"
+    },
+    "padding": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "isLinkActive": false,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px"
+        ],
+        "values": {
+          "desktop": [
+            "9",
+            "10",
+            "9",
+            "10"
+          ],
+          "tablet": [
+            "9",
+            "10",
+            "9",
+            "10"
+          ],
+          "mobile": [
+            "9",
+            "10",
+            "9",
+            "10"
+          ]
+        }
+      }
+    },
+    "margin": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "isLinkActive": false,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px"
+        ],
+        "values": {
+          "desktop": [
+            "12",
+            "0",
+            "12",
+            "0"
+          ],
+          "tablet": [
+            "12",
+            "0",
+            "12",
+            "0"
+          ],
+          "mobile": [
+            "12",
+            "0",
+            "12",
+            "0"
+          ]
+        }
+      }
+    },
+    "txtPadding": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "isLinkActive": false,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px"
+        ],
+        "values": {
+          "desktop": [
+            "8",
+            "12",
+            "8",
+            "12"
+          ],
+          "tablet": [
+            "8",
+            "12",
+            "8",
+            "12"
+          ],
+          "mobile": [
+            "8",
+            "12",
+            "12",
+            "26"
+          ]
+        }
+      }
+    },
+    "textPadding": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "isLinkActive": false,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "units": [
+          "px"
+        ],
+        "values": [
+          "12",
+          "26",
+          "12",
+          "26"
+        ]
+      }
+    },
+    "bgColor": {
+      "type": "string",
+      "default": "#c7c7c7"
+    },
+    "txtColor": {
+      "type": "string",
+      "default": "#000"
+    },
+    "inclusiveText": {
+      "type": "string",
+      "default": "Inclusive Tax"
+    },
+    "inclusiveLink": {
+      "type": "string",
+      "default": ""
+    },
+    "exclusiveText": {
+      "type": "string",
+      "default": "Exclusive Tax"
+    },
+    "exclusiveLink": {
+      "type": "string",
+      "default": ""
+    },
+    "activeTxtColor": {
+      "type": "string",
+      "default": "#000"
+    },
+    "activeState": {
+      "type": "string",
+      "default": "inclusive"
+    },
+    "activeBgColor": {
+      "type": "string",
+      "default": "#f3f3f3"
+    },
+    "borderRadius": {
+      "type": "number",
+      "default": 100
+    },
+    "headingTypo": {
+      "type": "object",
+      "default": {
+        "fontFamily": "",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 16,
+            "tablet": 16,
+            "mobile": 16
+          }
+        },
+        "fontWeight": 500,
+        "lineHeight": {
+          "activeUnit": "",
+          "units": [
+            ""
+          ],
+          "values": {
+            "desktop": 1,
+            "tablet": 1,
+            "mobile": 1
+          }
+        }
+      }
+    }
+  },
+  "textdomain": "wc-booster",
+  "editorScript": "file:./index.js",
+  "viewScript": "file:./tax-toggler.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
